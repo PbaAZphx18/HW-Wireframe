@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box; 
+  clear: both; 
+}
+
+/* ===MAIN AREA=== */
+
+body {
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background: #777;
+  color: #777;
+  font-size: 18px;
+}
+
+header {
+  padding: 40px;
+  height: 100px;
+  position: relative;
+  left: 175px;
+  margin-top: 10px;
+  width: 70%;
+  background: #ebebeb;
+  color: #777;
+}
+
+nav {
+  padding: 40px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background: #ebebeb;
+  color: #a7a4a4;
+  position: relative;
+  left: 175px;
+  width: 70%;
+}
+
+section {
+  margin-top: 5px;
+}
+
+article {
+  background: #777;
+  color: #ebebeb;
+  padding: 10px;
+}
+
+  p {
+    padding: 5px;
+    line-height: .02;
+}
+
+/* ===BOXES=== */
+
+.box {
+  padding: 30px;
+  background: #eee;
+  color: #a7a4a4;
+}
+
+.box-1 {
+  float: left;
+  width: 36%;
+  position: relative;
+  left: 175px;
+  padding: 13px;
+}
+
+.box-2 {
+  background: #969494;
+  margin: 20px auto;
+  position: relative;
+  top: 10px;
+  height: 175px;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.box-3 {
+  position: relative;
+  margin: 10px auto;
+  width: 95%;
+  padding: 10px;
+}
+
+.box-4 {
+  padding: 18px;  
+  margin: 10px auto;  
+  width: 95%;  
+}
+
+.box-5 {
+  float: right;
+  position: relative;
+  bottom: 252px;
+  right: 257px;
+  width: 33%;
+  height: 251px;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===FOOTER=== */
+
+footer {
+  background: #ebebeb;
+  color: #a7a4a4;
+  width: 70%;
+  left: 175px;
+  height: 100px;
+  padding: 40px;
+  position: relative;
+  top: -232px;
+}
